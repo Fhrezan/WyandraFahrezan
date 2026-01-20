@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wyandra Fahrezan Angkasa - Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home">Portfolio</a>
+
+      <nav class="nav__links" aria-label="Primary Navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="nav__toggle" aria-label="Open Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+
+        <!-- FOTO PROFIL -->
+        <div class="hero__photo">
+          <!-- Ganti src jadi foto kamu -->
+          <img src="Profile.jpg" alt="Wyandra Fahrezan Angkasa" />
+        </div>
+
+        <!-- INTRO -->
+        <div class="hero__content">
+          <h1 class="hero__title">Hi, I’m Wyandra Fahrezan Angkasa!</h1>
+          <p class="hero__role">Biomedical Engineering Graduate</p>
+
+          <p class="hero__desc">
+            A newly graduated Biomedical Engineering professional with a forward thinking mindset and strong adaptability.
+            He gained internship experience at IDSmed Indonesia as a Biomedical Engineering Intern, where he was responsible
+            for assisting in medical device assembly, performing calibration procedures, and contributing to other technical
+            tasks related to the maintenance and handling of medical equipment.
+          </p>
+
+          <!-- CTA BUTTON -->
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects →</a>
+            <!-- Upload file CV kamu di folder assets, misal: assets/CV_Wyandra.pdf -->
+            <a class="btn btn--outline" href="CV_Wyandra.pdf" target="_blank" rel="noopener">
+              Download CV
+            </a>
+          </div>
+
+          <!-- SOCIAL -->
+          <div class="social">
+            <a href="https://www.linkedin.com/in/wyandrafahrezana" target="_blank" rel="noopener" aria-label="LinkedIn">
+              LinkedIn
+            </a>
+            <a href="https://github.com/fhrezan" target="_blank" rel="noopener" aria-label="GitHub">
+              GitHub
+            </a>
+            <a href="https://instagram.com/Fhrznnn" target="_blank" rel="noopener" aria-label="Instagram">
+              Instagram
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Featured Projects</h2>
+          <a class="section__cta" href="#">View all projects →</a>
+        </div>
+
+        <div class="projects">
+
+          <!-- PROJECT 1 -->
+          <article class="project">
+            <div class="project__left">
+              <h3 class="project__title">Medical Device Design</h3>
+              <p class="project__desc">
+                Development of innovative medical instrumentation for patient monitoring and diagnostics.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Medical</span>
+                <span class="tag">Prototype</span>
+                <span class="tag">Calibration</span>
+              </div>
+
+              <!-- tombol project -->
+              <div class="project__links">
+                <a class="link" href="#" target="_blank" rel="noopener">View Case Study</a>
+                <a class="link" href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <div class="project__right">
+              <!-- ganti thumbnail -->
+              <img class="project__img" src="Medevice1.jpg"  alt="Medical Device Design Project" />
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project">
+            <div class="project__left">
+              <h3 class="project__title">Biosignal Analysis</h3>
+              <p class="project__desc">
+                Signal processing and analysis system for ECG/EEG and other biomedical signals.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Matlab</span>
+                <span class="tag">Data Analysis</span>
+              </div>
+
+              <div class="project__links">
+                <a class="link" href="#" target="_blank" rel="noopener">View Case Study</a>
+                <a class="link" href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <div class="project__right">
+              <img class="project__img" src="SignBio.jpg" alt="Biosignal Analysis Project" />
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project">
+            <div class="project__left">
+              <h3 class="project__title">Healthcare System</h3>
+              <p class="project__desc">
+                Integrated healthcare management system to improve workflow and patient care.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Web</span>
+                <span class="tag">System Design</span>
+                <span class="tag">Integration</span>
+              </div>
+
+              <div class="https://fhrezan.github.io/simpus-web/">
+                <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a class="link" href="#" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+
+            <div class="project__right">
+              <img class="project__img" src="HC1.jpg" alt="Healthcare System Project" />
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / SKILLS -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">About Me</h2>
+          <a class="section__cta" href="#contact">Let’s connect →</a>
+        </div>
+
+        <p class="about__text">
+          I’m passionate about biomedical engineering, medical device prototyping, data processing, and software development.
+          I enjoy building impactful solutions in the healthcare sector using technology.
+        </p>
+
+        <div class="skills">
+          <div class="skill">
+            <h4 class="skill__title">Prototyping</h4>
+            <p class="skill__desc">
+              Creating mockups and interactive prototypes to validate flows and usability.
+            </p>
+          </div>
+
+          <div class="skill">
+            <h4 class="skill__title">Biosignal Processing</h4>
+            <p class="skill__desc">
+              Signal processing & analysis for insights and evaluation.
+            </p>
+          </div>
+
+          <div class="skill">
+            <h4 class="skill__title">Medical Instrumentation</h4>
+            <p class="skill__desc">
+              Experience designing devices, sensors, and clinical-oriented systems.
+            </p>
+          </div>
+
+          <div class="skill">
+            <h4 class="skill__title">Web Design & Development</h4>
+            <p class="skill__desc">
+              Building responsive websites with clean layout and front-end implementation.
+            </p>
+          </div>
+
+          <div class="skill">
+            <h4 class="skill__title">Project Management</h4>
+            <p class="skill__desc">
+              Planning, coordinating, and delivering projects from concept to testing stage.
+            </p>
+          </div>
+
+          <div class="skill">
+            <h4 class="skill__title">Data Analysis</h4>
+            <p class="skill__desc">
+              Using statistical reasoning and visualization for biomedical datasets.
+            </p>
+          </div>
+        </div>
+
+        <div class="tools">
+          <h3 class="tools__title">Tools & Technologies</h3>
+          <div class="tools__grid">
+            <div class="tool">MATLAB</div>
+            <div class="tool">Python</div>
+            <div class="tool">Arduino</div>
+            <div class="tool">Unity</div>
+            <div class="tool">Blender</div>
+            <div class="tool">Figma</div>
+            <div class="tool">HTML/CSS</div>
+            <div class="tool">JavaScript</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE (BARU) -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Experience</h2>
+          <p class="section__subtitle">Professional background & internships</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <h3 class="timeline__title">Biomedical Engineering Intern - IDSmed Indonesia</h3>
+            <p class="timeline__date"> Aug - Sep 2025</p>
+            <ul class="timeline__desc">
+              <li>Assisted medical device assembly and maintenance.</li>
+              <li>Performed calibration procedures for medical equipment.</li>
+              <li>Supported technical documentation and reporting.</li>
+            </ul>
+          </div>
+
+          <div class="timeline__item">
+            <h3 class="timeline__title">Biomedical Engineering Graduate</h3>
+            <p class="timeline__date">Telkom University</p>
+            <ul class="timeline__desc">
+              <li>Focus: medical instrumentation, biosignal processing, and VR simulation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+        <h2 class="contact__title">Let’s talk!</h2>
+        <p class="contact__desc">
+          Send me a message, and I'll do my best to get back to you :)
+        </p>
+
+        <div class="contact__actions">
+          <a class="btn" href="mailto:fahrezan18004@gmail.com">Email Me →</a>
+          <a class="btn btn--outline" href="https://wa.me/6281254487264" target="_blank" rel="noopener">
+            WhatsApp
+          </a>
+        </div>
+
+        <p class="contact__meta">
+          📍 Indonesia , Jakarta
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Wyandra Fahrezan Angkasa</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
